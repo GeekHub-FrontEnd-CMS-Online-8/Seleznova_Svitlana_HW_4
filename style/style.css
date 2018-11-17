@@ -1,0 +1,268 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+div, p, h1, img {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+.block {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    overflow: hidden;
+    padding: 22px 0;
+    text-align: center;
+    background: #194277;
+    color: #fff;
+}
+
+header .btn_accept {
+    margin-left: 50px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-family: Lato-Black, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-color: #fff;
+    background: #fff;
+    color: #194277;
+    border: none;
+}
+
+header p {
+    display: inline-block;
+    font-family: Lato-Black, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.portfolio {
+    overflow: hidden;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url("../images/font_welcome.png");
+}
+
+.portfolio .block {
+    width: 990px;
+}
+
+.portfolio .elipsa {
+    margin: 80px 0;
+    border: 5px solid rgba(241, 241, 241, 0.3);
+    border-radius: 80px;
+    box-shadow: 0 0 0 8px rgba(241, 241, 241, 0.15);
+    opacity: 0.86;
+}
+
+.portfolio h1 {
+    margin-bottom: 42px;
+    font-family: Lato-Black, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.portfolio p {
+    font-family: Lato-Black, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #fff;
+    width: 765px;
+    height: 50px;
+    text-align: center;
+    margin: 42px 0 0 100px;
+    opacity: 0.7;
+}
+
+.portfolio .btn_hireme {
+    display: block;
+    margin: 100px auto 60px;
+    padding: 21px 69px;
+    border-radius: 35px;
+    font-family: ﻿Lato-Bold, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-color: #fff;
+    background: #fff;
+    color: #194277;
+    border: none;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+
+}
+
+.portfolio .btn_hireme {
+    color: #3695ff;
+}
+
+.menu {
+    width: 25px;
+    height: 19px;
+    margin-top: 31px;
+    margin-left: 1200px;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.about_me {
+    overflow: hidden;
+    padding: 100px 0 120px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-family: Lato-Light, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: #3673fd;
+    padding: 0 0 50px;
+}
+
+.about_me p {
+    font-family: ﻿Lato-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: rgba(90, 90, 90, 255);
+    height: 38px;
+    margin: 0 0 0 100px;
+}
+
+.expert_in {
+    overflow: hidden;
+    padding: 100px 0 50px;
+    background: #f1f8ff;
+    text-align: center;
+}
+
+.expert_in .img_expert li {
+    float: left;
+    width: 33%;
+    margin-bottom: 50px;
+}
+
+.expert_in .img_expert li ul li {
+  float: none;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.expert_in .img_expert li ul li h3 {
+    margin: 70px 0 30px;
+    font-family: Lato, sans-serif;
+    color: #3677fd;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.expert_in .img_expert li ul li p {
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.latest_works {
+  overflow: hidden;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.latest_works ul li {
+  float: left;
+  margin-bottom: 30px;
+  width: 33%;
+}
+
+.latest_works ul li .works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 359px;
+  height: 269px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+  background-color: #f4f4f4;
+}
+
+.circle {
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 100px;
+}
+.clients {
+  overflow: hidden;
+  padding: 90px 0 150px;
+  background: #f1f8ff;
+  text-align: center;
+}
+
+.clients ul li {
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.clients ul li .img_clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  overflow: hidden;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+  opacity: 0.7;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+  overflow: hidden;
+  text-align: center;
+}
+
+footer .footer_block {
+    padding: 50px 0;
+    background-image: url("../images/font_head.png");
+}
+
+footer .footer_block p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+footer .footer_block .btn_hireme {
+    margin-left: 20px;
+    padding: 20px 70px;
+    border-radius: 25px;
+    border: none;
+    color: #3695ff;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background: #fff;
+    text-transform: uppercase;
+}
